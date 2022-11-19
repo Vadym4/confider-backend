@@ -13,7 +13,6 @@ public class CreateDatabases {
 			} catch (ClassNotFoundException e1) {
 				e1.printStackTrace();
 			}
-
 			/** 
 			 * PFAD ZUR DB
 			 */
@@ -26,7 +25,7 @@ public class CreateDatabases {
 	                System.out.println("A new database has been created.");  
 	            }  
 	            /**
-	             * SPALTEN DER DB
+	             * SPALTEN DER DB TODO generisch iterieren über globale Attribute
 	             */
 	            String sql = "CREATE TABLE IF NOT EXISTS mitarbeiter ("  
 	                    + " Id integer PRIMARY KEY,"  
